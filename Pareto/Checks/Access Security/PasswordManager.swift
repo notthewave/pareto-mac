@@ -24,6 +24,7 @@ class PasswordManager: ParetoCheck {
     // Centralized password manager definitions
     private enum PasswordManagerData {
         static let runningAppNames = [
+            "Strongbox",
             "1Password",
             "1Password 8",
             "1Password 7",
@@ -41,6 +42,7 @@ class PasswordManager: ParetoCheck {
         ]
 
         static let installedAppNames = [
+            "Strongbox.app",
             "1Password.app",
             "1Password 8.app",
             "1Password 7.app",
